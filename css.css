@@ -1,0 +1,123 @@
+/* Definir a paleta de cores */
+:root {
+    
+    --cor-secundaria: #FF5722;  /* Laranja energizante */
+    --cor-fundo: #f4f4f4;  /* Fundo suave e neutro */
+    --cor-texto: #333;  /* Cor de texto escura para boa leitura */
+    --cor-destaque: #fff;  /* Fundo branco para destacar conteúdos */
+    --cor-botao: #FF9800; /* Laranja mais suave para o botão */
+}
+.imagem-diminuida {
+    width: 50%; /* A imagem terá 50% da largura do seu contêiner */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Reset de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definir o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+    color: var(--cor-texto);
+}
+
+
+
+#logo {
+    height: 15%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Seção Principal */
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque);
+}
+
+.main-image {
+    height: 50%;
+    border-radius: 8px;
+}
+
+
+
+/* Formulário de contato */
+#contact-form {
+    background-color: var(--cor-destaque);
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    color: var(--cor-principal);
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--cor-botao);
+    border: none;
+    color: var(--cor-destaque);
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--cor-secundaria);
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-destaque);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
