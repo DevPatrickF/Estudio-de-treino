@@ -4,7 +4,7 @@
     --cor-secundaria: #FF5722;  /* Laranja energizante */
     --cor-fundo: #f4f4f4;  /* Fundo suave e neutro */
     --cor-texto: #f5f5dc;  /* Cor de texto escura para boa leitura */
-    --cor-destaque: #A9A9A9;  /* Fundo escuro para destacar conteúdos */
+    --cor-destaque: #000080;  /* Fundo escuro para destacar conteúdos */
     --cor-botao: #FF9800; /* Laranja mais suave para o botão */
 }
 .imagem-diminuida {
