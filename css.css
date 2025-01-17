@@ -24,7 +24,7 @@
 /* Definir o corpo da página */
 body {
     font-family: 'Arial', sans-serif;
-    background: var(--cor-destaque);
+    background-color: #008b8b;
     color: var(--cor-texto);
 }
 
