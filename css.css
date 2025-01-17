@@ -3,7 +3,7 @@
     
     --cor-secundaria: #FF5722;  /* Laranja energizante */
     --cor-fundo: #f4f4f4;  /* Fundo suave e neutro */
-    --cor-texto: #FFF8DC;  /* Cor de texto escura para boa leitura */
+    --cor-texto: #F5F5F5;  /* Cor de texto escura para boa leitura */
     --cor-destaque: #000000;  /* Fundo branco para destacar conteúdos */
     --cor-botao: #FF9800; /* Laranja mais suave para o botão */
 }
@@ -24,7 +24,7 @@
 /* Definir o corpo da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: Cornsilk;
+    background: WhiteSmoke;
     color: var(--cor-texto);
 }
 
