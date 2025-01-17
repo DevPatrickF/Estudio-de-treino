@@ -24,7 +24,7 @@
 /* Definir o corpo da página */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: aliceblue;
+    background-color: black;
     color: var(--cor-texto);
 }
 
