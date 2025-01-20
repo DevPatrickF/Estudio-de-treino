@@ -4,7 +4,7 @@
     --cor-secundaria: #FF5722;  /* Laranja energizante */
     --cor-fundo: #f4f4f4;  /* Fundo suave e neutro */
     --cor-texto: #f5f5dc;  /* Cor de texto escura para boa leitura */
-    --cor-destaque: #0F3B50;  /* Fundo escuro para destacar conteúdos */
+    --cor-destaque: #000;  /* Fundo escuro para destacar conteúdos */
     --cor-botao: #FF9800; /* Laranja mais suave para o botão */
 }
 .imagem-diminuida {
@@ -23,9 +23,14 @@
 
 /* Definir o corpo da página */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: var(--cor-destaque);
-    color: var(--cor-texto);
+        background-image: url('imagees/imagem_kina-removebg-preview.png');
+        background-size: cover;    /* Faz a imagem cobrir toda a tela */
+        background-position: center; /* Centraliza a imagem na tela */
+        background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa ao rolar a página */
+    
+        font-family: 'Arial', sans-serif;
+        background-color: var(--cor-destaque);
+        color: var(--cor-texto);
 }
 
 
